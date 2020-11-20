@@ -15,10 +15,7 @@ function testAudio(){
     synth.triggerAttackRelease("G4", "8n", now + 1)
     
 }
-//play sound from button
-document.getElementById('play-sound').addEventListener('click', () => {
-    player.start();
-})
+
 //start and stop transport
 let transportRunning = false; 
 
